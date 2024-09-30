@@ -6,6 +6,36 @@
     body {
       background-color: #f0f0f0;
     }
+    nav{
+            background-color: #666;
+            color: #fff;
+            padding: 1em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        } 
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-start;
+            border-radius: 10px;
+        }
+        nav li {
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        nav a:hover {
+            color: #ccc;
+        }
     .portfolio {
       max-width: 800px;
       margin: 40px auto;
@@ -35,9 +65,15 @@
   </style>
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="index.html">CV</a></li>
+      <li><a href="portofolio.html">Portofolio</a></li>
+    </ul>
+  </nav>
   <h1>Portfolio</h1>
   <p>Nama saya Firman Ar-Riza Maulana, saya adalah mahasiswa S1 Sistem Informasi dan tertarik di bidang jaringan komputer dengan keahlian dalam konfigurasi mikrotik, manajemen VLAN, dan routing statis.<br>
-    Terima kasih telah mengunjungi portfolio saya! Jika Anda ingin melihat lebih lanjut tentang pengalaman dan keahlian saya, silakan kunjungi <a href="index.html">CV saya</a>.</p>
+    Terima kasih telah mengunjungi portfolio saya!</p>
   <p> Dibawah ini adalah pengalaman project yang saya kerjakan:</p>
   <div class="portfolio">
     <!-- Portfolio item 1 -->

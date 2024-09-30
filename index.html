@@ -5,16 +5,90 @@
     <style>
         body{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #f7f7f7;
         }
-        body{
-            background-color: #00ffd9;
-        }   
+        nav{
+            background-color: #666;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        } 
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-start;
+            border-radius: 10px;
+        }
+        nav li {
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        nav a:hover {
+            color: #ccc;
+        }  
+        section {
+            background-color: #fff; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            border: 1px solid #ddd; 
+        }
+        h1, h2 {
+            color: #333; 
+            margin-bottom: 10px; 
+        }
+        h1 {
+            font-size: 36px; 
+        }
+        h2 {
+            font-size: 24px; 
+        }
+        img {
+            border-radius: 50%; 
+            width: 150px; 
+            height: 150px; 
+            margin: 20px auto; 
+        }
+        table {
+            border-collapse: collapse; 
+            width: 100%; 
+        }
+        th, td {
+            border: 1px solid #ccc; 
+            padding: 10px; 
+            text-align: left; 
+        }
+        th {
+            background-color: #f0f0f0; 
+        }
+        p {
+            margin-bottom: 20px; 
+        }
+        nav a {
+            color: #fff; 
+        }
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+          <li><a href="index.html">CV</a></li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+        </ul>
+      </nav>
     <center>
         <h1>Curiculum Vitae</h1>
-        <img src="FOTO.jpeg" alt="Profile Pict" width="150px " height="150px birder-radius=50%">
+        <img src="FOTO.jpeg" alt="Your Name" width="150px " height="150px birder-radius=50%">
     </center>
     <hr>
     <body>
@@ -55,7 +129,6 @@
             <p>Saya adalah seorang mahasiswa S1 Sistem Informasi di Telkom University. <br>
             Saya suka dengan dunia pemrograman, jaringan komputer dan sistem operasi <br>
             Maka dari itu saya ingin melamar pekerjaan di bidang IT.</p>
-            <p><a href="portofolio.html">Portofolio</a></p>
         </section>
     </body>
 </body>
